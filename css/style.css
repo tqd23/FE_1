@@ -1,0 +1,199 @@
+.header{
+    background-color : #FFF;
+}
+.header .container .header-component {
+    font-size : 20px;
+    margin: 0 auto;
+    width : 80%;
+    display: flex;
+}
+.header .container .header-component .logo{
+    flex : 1;
+}
+.header .container .header-component .logo .title {
+    color : #3CC3B5;
+}
+.header .container .header-component .search-component {
+    flex: 4;
+    padding: 20px; 
+}
+.header .container .header-component .search-component input {
+    font-size: 12px;
+    padding: 5px;
+    width: 350px;
+    font-weight: bold;
+    border: 2px solid #bdc3c7; 
+}
+.header .container .header-component .search-component button {
+    font-size: 12px;
+    padding: 5px;
+    background-color: #3CC3B5;
+    border: 2px solid #3CC3B5;
+    color: #fff;
+}
+.header .container .header-component .cart-group {
+    flex: 1;
+    display: flex;
+    padding-top: 20px; 
+}
+.header .container .header-component .cart-group .cart-img {
+    margin: 0 12px 0 30px;
+    width: 35px;
+    height: 35px; 
+}
+.header .container .header-component .cart-group .cart-img img {
+    width: 100%;
+    height: 100%; 
+}
+.header .container .header-component .cart-group .money {
+    color: #7f8c8d;
+    font-weight: bold; 
+}
+.main {
+    background-color: #3EC1B7; 
+}
+.main .nav-bar1 {
+    background-color: #4CCFC1;
+    text-align: center;
+}
+.main .nav-bar1 .container ul {
+    padding: 0;
+    margin: 0; 
+}
+.main .nav-bar1 .container ul li {
+    display: inline; 
+}
+.main .nav-bar1 .container ul li .item {
+    line-height: 50px;
+    padding: 0 14px;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    border-right: 3px solid #ecf0f1; 
+}
+.main .nav-bar1 .container ul li .item1 {
+    line-height: 50px;
+    padding: 0 14px;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.main .branded-group {
+    background-color: #FFF; 
+}
+.main .branded-group .container {
+    display: flex; 
+}
+.main .branded-group .container .branded-item {
+    padding: 20px 20px 20px 40px;
+    flex: 1;
+    display: flex;
+    border-right: 2px solid #bdc3c7; 
+}
+.main .branded-group .container .branded-item .img-view {
+    width: 100px;
+    height: 100px; 
+}
+.main .branded-group .container .branded-item .img-view img {
+    width: 100%;
+    height: 100%; 
+}
+.main .branded-group .container .branded-item .info-details {
+    padding: 20px;
+    font-weight: bold; 
+}
+.main .branded-group .container .branded-item .info-details .title {
+    color: #95a5a6;
+    font-size: 18px; 
+}
+.main .branded-group .container .branded-item .info-details button {
+    color: #FFF;
+    background-color: #3CC395;
+    border: 1px solid #3CC395;
+    font-size: 15px;
+    padding: 4px 8px;
+    border-radius: 4px; 
+}
+.main .banner {
+    height: 300px;
+}
+.main .banner .img-view{
+    text-align: center;
+}
+.main .features{
+    height: 50px;
+    color: #FFF;    
+    padding: 10px;
+}
+.main .features .view-pro{
+    color: #FFF;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 150px;
+
+}
+.main .dm {
+    background-color: #FFF;
+    padding: 0 200px 40px 200px;
+}
+.main .dm .container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.main .dm .container .item{
+    border: 2px solid;
+    margin: 50px 30px 0 30px;
+    padding: 20px;
+    width: 20%;
+}
+.main .dm .container .item .view {
+    width: 180px;
+    height: 180px; 
+}
+.main .dm .container .item .view img {
+    width: 100%;
+    height: 100%; 
+}
+.main .dm .container .item .info{
+    padding-top: 20px;
+    color: #000000;
+    font-weight: bold;
+    font-size: 20px; 
+}
+.main .dm .container .item .info .title{
+    text-align: center;
+}
+.footer {
+    color: #FFF; 
+}
+.footer .linking-group {
+    background-color: #3CC3B5; 
+}
+.footer .linking-group .container {
+    padding: 20px 120px 40px 120px;
+    display: flex; 
+}
+.footer .linking-group .container .linking-item {
+    margin: 0 auto; 
+}
+.footer .linking-group .container .linking-item .title {
+    font-size: 22px;
+    font-weight: bold;
+    padding: 12px 0; 
+}
+.footer .linking-group .container .linking-item .link-detail {
+    font-size: 15px;
+    padding: 3px 0; 
+}
+.footer .linking-group .container .linking-item .link-detail:hover {
+    cursor: pointer; 
+}
+.footer .copy-right {
+    background-color: #2DA89B;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 10px 0; 
+}
